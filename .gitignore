@@ -1,0 +1,28 @@
+# OS files
+.DS_Store
+Thumbs.db
+*.ini
+
+# Temporary files
+*~
+
+# Folders
+.idea/
+!.idea/codeStyleSettings.xml
+node_modules/
+
+# Node files
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
