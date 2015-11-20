@@ -2,7 +2,7 @@ var should = require("should");
 
 describe("config.js", function (){
   beforeEach(function(){
-    this.configs = require("../lib/config")("test/fixtures");
+    this.configs = require("../lib/configManager")("test/fixtures");
   });
 
   context("global configurations", function (){
