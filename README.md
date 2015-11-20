@@ -2,6 +2,10 @@
 
 Simple module to have configs from a folder. This module manage `*.local.js` and `local.js` overrides to have an easy way to have dev configs ;).
 
+# How to install
+
+Simply do `npm i --save @fabien0102/config-manager`.
+
 # Examples
 ## Simple configuration
 configs/bdd.js
@@ -13,7 +17,7 @@ module.exports.bdd = {
 
 app.js
 ```
-var config = require('config-manager')('/configs');
+var config = require('@fabien0102/config-manager')('/configs');
 
 console.log(config.bdd.host); // -> 'production.mongo.com'
 ```
@@ -35,7 +39,7 @@ module.exports.bdd = {
 
 app.js
 ```
-var config = require('config-manager')('/configs');
+var config = require('@fabien0102/config-manager')('/configs');
 
 console.log(config.bdd.host); // -> 'localhost'
 ```
@@ -61,7 +65,7 @@ module.exports = {
 
 app.js
 ```
-var config = require('config-manager')('/configs');
+var config = require('@fabien0102/config-manager')('/configs');
 
 console.log(config.bdd.host); // -> 'localhost'
 ```
