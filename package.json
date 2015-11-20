@@ -1,0 +1,32 @@
+{
+  "name": "@fabien0102/config-manager",
+  "version": "1.0.0",
+  "description": "Simple module to have configs from a folder. This module manage *.local.js and local.js overrides to have an easy way to have dev configs ;)",
+  "main": "lib/configManager.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "lodash": "^3.10.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "should": "^7.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabien0102/config-manager.git"
+  },
+  "keywords": [
+    "config"
+  ],
+  "author": "fabien0102",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fabien0102/config-manager/issues"
+  },
+  "homepage": "https://github.com/fabien0102/config-manager#readme"
+}
