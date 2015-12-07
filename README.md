@@ -1,4 +1,4 @@
-# Config-manager
+# Config-manager [![npm version](https://badge.fury.io/js/%40fabien0102%2Fconfig-manager.svg)](https://badge.fury.io/js/%40fabien0102%2Fconfig-manager)
 
 Simple module to have configs from a folder. This module manage `*.local.js` and `local.js` overrides to have an easy way to have dev configs ;).
 
