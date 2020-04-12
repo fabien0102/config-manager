@@ -1,6 +1,6 @@
 {
   "name": "@fabien0102/config-manager",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Simple module to have configs from a folder. This module manage *.local.js and local.js overrides to have an easy way to have dev configs ;)",
   "main": "lib/configManager.js",
   "directories": {
